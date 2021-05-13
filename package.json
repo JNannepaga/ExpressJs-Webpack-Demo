@@ -1,0 +1,35 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Basic SSR app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build:dev": "webpack --config webpack.config.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joseph Abhilash Nannepaga",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "html-webpack-pug-plugin": "^2.0.0",
+    "pug-loader": "^2.4.0",
+    "styles-loader": "^3.0.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
